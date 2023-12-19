@@ -430,12 +430,17 @@ Calculating the inverse of a matrix involves several steps and can be done in di
 A matrix must be non-singular (non-zero determinant) to have an inverse. Matrices close to being singular or of very large dimensions can pose challenges in terms of numerical stability when calculating the inverse.
 
 **Exemple**
+
 Consider the matrix A = [[4, 7] [2, 6]]
+
 Calculate the determinant of A (see exercise 11) : det(A) = 10
+
 Apply the formula for the inverse of a 2x2 matrix:
+
 A-1 = ``[[6 / 10, -7 / 10] [-2 / 10, 4 / 10]]`` = ``[[0.6, -0.7] [-0.2, 0.4]]``
 
 ``A * A-1 = I``
+
 *This example shows the process for a small 2x2 matrix. For larger matrices, as mentioned, more complex methods like Gauss-Jordan elimination or matrix decompositions (LU, QR, etc.) are typically employed.*
 
 ----
@@ -448,8 +453,11 @@ The rank of a matrix is ​​an important measure in linear algebra which indic
 To calculate the rank of a matrix, one can perform several steps, the most common of which is to reduce the matrix to its reduced echelon form by elementary row operations (see exercise 10). Once the matrix is ​​reduced, the rank corresponds to the number of non-zero rows in this scaled form.
 
 **Exemple**
+
 Matrix A =  ``[[8.0, 5.0, -2.0], [4.0, 7.0, 20.0], [7.0, 6.0, 1.0], [21.0, 18.0, 7.0]]``
+
 Reduced echelon form = ``[[1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0], [0.0, 0.0, 0.0]]``
+
 Rank A = ``3``
 
 ----
