@@ -390,7 +390,7 @@ Example Matrix A (2×2):
 
 det(A) = ``(3 * 2) - (2 * 0)`` = ``6 - 0`` = ``6``
 
-![det(A)](./screenshots/deter_after-32-02.png)
+![det(A)](./screenshots/deter_A.png)
 *Credits 3Blue1Brown*
 
 Example Matrix B (2×2):
@@ -399,7 +399,7 @@ Example Matrix B (2×2):
 
 det(B) = ``(4 * 1) - (2 * 2)`` = ``4 - 4`` = ``0``
 
-![det(B)](./screenshots/deter_0.png)
+![det(B)](./screenshots/deter_B.png)
 *Credits 3Blue1Brown*
 
 
